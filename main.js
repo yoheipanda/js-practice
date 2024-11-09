@@ -7,7 +7,8 @@ window.addEventListener('DOMContentLoaded', function() {
         const w = Number.parseInt(valueW);
 
         // BMIを計算する
-        let bmi = w*(h*h);
+        let bmi = w/(h*h);
+        bmi = bmi.toFixed(2);
 
         const html = `<div class="item">BMI <b>${bmi}</b></div>`;
         document.querySelector('#output').innerHTML = html;
