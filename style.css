@@ -1,0 +1,19 @@
+/* Html */
+body { text-align: center; }
+h1 { margin: 0; }
+* { font-size: clamp(12px, 8vw, 48px); }
+
+/* Item */
+.item {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 0.5em 0;
+}
+
+/* Exec */
+#exec {
+    width: 9em;
+    box-sizing: border-box;
+}
+
